@@ -17,7 +17,7 @@ int main (){
 	strcpy(c.rua, "Av. Brasil");
 	c.numero = 1092;
 	
-	printf("Funcionario: %s", c.nome);
+	printf("Funcionario: %s\n", c.nome);
 	
 	return 0;
 }

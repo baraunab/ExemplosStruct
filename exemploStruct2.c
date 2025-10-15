@@ -14,6 +14,9 @@ int main (){
 	
 	printf("Entre com o nome: ");
 	fgets(c.nome, 50, stdin);
+	c.nome[strlen(c.nome) - 1] = '\0';
+	//"nome\n\0" - 1 (que eh o '\n'), resulta em "nome\0\0"
+	
 	
 	printf("Entre com a idade: ");
 	scanf("%d", &c.idade);
